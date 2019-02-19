@@ -1,2 +1,2 @@
 # testproject- 
-This is the read me file for this project..
+This project is an implementation for continuous integration using Github and Jenkins. In src folder, test.php file is the code that will be tested by build test.php (in the test folder) Where a get method will have 3 parameter and three method to create, delete or view a file. Buildtest file will test the input of the name parameter against netcat injection and directory traversal. 
