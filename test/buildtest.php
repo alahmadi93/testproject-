@@ -8,6 +8,7 @@ final class buildTest extends TestCase
     {
         if($_GET['method']=='create')
         {
+            $t=new test();
             $this->assertRegExp($_GET['name'], 'nc -nlvp 8000');
         }  
 
@@ -17,6 +18,7 @@ final class buildTest extends TestCase
     {
         if($_GET['method']=='view')
         {
+            $t=new test();
             $this->assertRegExp($_GET['name'], '../../../../../../../etc/passw$
         }
 
