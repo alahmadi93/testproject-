@@ -1,5 +1,5 @@
 <?php
-
+	//Added a comment
       public $method=$_GET['method']; 
       public $name=$_GET['name'];
       public $contents=$_GET['contents'];
